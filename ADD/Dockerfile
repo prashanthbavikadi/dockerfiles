@@ -3,3 +3,6 @@ ADD  https://raw.githubusercontent.com/prashanthbavikadi/basic-jenkin/refs/heads
 ADD  sample-1.tar /tmp
 CMD  ["sleep", "60"] 
  
+# docker build -t <image>:<tag> .  --
+# docker run -d <image>:<tag> ---
+# docker exec -it <CONT ID> bash ---
